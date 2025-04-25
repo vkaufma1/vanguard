@@ -78,10 +78,6 @@ table {
 
 .navbar {
     width: 100%;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 1rem 0;
     background-color: var(--black);
     position: relative;
   }
@@ -105,6 +101,23 @@ table {
     left: 0;
   }
 
+  .navbar h1 {
+    color: var(--blue);
+    font-size: 1.5rem;
+    position: relative;
+    padding-left: 3.75rem;
+  }
+
+  .navbar h1::before{
+    content:" ";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 3.75rem;
+    height: 3.75rem;
+    background: url('images/vanguard-logo.svg') no-repeat center/contain;
+  }
+
   .hamburger{
     font-size: 2rem;
     color: var(--white);
@@ -115,6 +128,13 @@ table {
   .nav-links {
     display: flex;
     gap: 1.5rem;
+    list-style: none;
+  }
+
+  .navlinks a{
+    color: var(--white);
+    text-decoration: none;
+    font-weight: bold;
   }
 
   @media (max-width:600px) {
@@ -123,6 +143,17 @@ table {
     }
     .hamburger {
         display: block;
+    }
+    .hero{
+        min-height: 100vh;
+        padding: 2rem 1rem;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+    }
+    .hero-content{
+        max-width: 600px;
     }
   }
   
