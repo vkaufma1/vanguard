@@ -77,11 +77,20 @@ table {
 }
 
 .navbar {
+    width: 100%;
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 1rem 0;
     background-color: var(--black);
+    position: relative;
+  }
+
+  .navbar nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 0;
     position: relative;
   }
 
@@ -94,6 +103,27 @@ table {
     position: absolute;
     bottom: 0;
     left: 0;
+  }
+
+  .hamburger{
+    font-size: 2rem;
+    color: var(--white);
+    display: none;
+    cursor: pointer;
+  }
+
+  .nav-links {
+    display: flex;
+    gap: 1.5rem;
+  }
+
+  @media (max-width:600px) {
+    .nav-links {
+        display: none;
+    }
+    .hamburger {
+        display: block;
+    }
   }
   
   .logo {
