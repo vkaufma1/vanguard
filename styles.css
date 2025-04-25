@@ -308,6 +308,32 @@ button{
     cursor: pointer;
 }
 
+.results{
+    background: var(--blue);
+    color: var(--white);
+    text-align: center;
+    padding: 2rem 1rem;
+}
+
+.results h2{
+    font-size: 1.75rem;
+    font-weight: 700;
+    margin-bottom: 1rem;
+}
+
+.results p{
+    max-width: 600px;
+    margin: 0 auto 2rem;
+    font-size: 1rem;
+    line-height: 1.6;
+}
+
+.results h3{
+    font-size: 1.25rem;
+    font-weight: 700;
+    margin: 1.5rem 0 1rem;
+}
+
 #results {
     display: grid;
     grid-template-columns: 1fr;
@@ -322,18 +348,28 @@ button{
   }
   
   .results-table {
-    background: var(--white);
-    color: var(--black);
-    border-radius: 8px;
-    overflow: hidden;
+   overflow-x: auto;
+   margin: 0 auto;
+   max-width: 600px;
+  }
+
+  .results-table table{
     width: 100%;
-    max-width: 600px;
+    border-collapse: collapse;  
+    background: var(--charcoal);
+    color: var(--white);
+    font-size: 0.95rem;
   }
   
   .results-table th,
   .results-table td {
-    padding: 1rem;
-    text-align: left;
+    padding: 0.75rem 1rem;
+    text-align: center;
+  }
+
+  .results-table th{
+    font-weight: 700;
+    background: var(--black);
   }
   
   .results-table thead {
