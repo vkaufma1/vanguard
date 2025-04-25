@@ -38,6 +38,7 @@ footer, header, hgroup, menu, nav, section {
 body {
     line-height: 1;
     overflow-x: hidden;
+    font-family: 'Inter', sans-serif;
 }
 ol, ul {
     list-style: none;
@@ -363,7 +364,7 @@ button{
     line-height: 1.6;
   }
   
-  /* What We Offer Section */
+
   .services {
     background: var(--white);
     padding: 2rem 1rem;
