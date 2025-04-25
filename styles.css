@@ -362,6 +362,7 @@ button{
     max-width: 600px;
     margin: 0 auto;
     line-height: 1.6;
+    text-align: left;
   }
   
 
@@ -388,7 +389,7 @@ button{
   
   .card h3 {
     font-size: 1rem;
-    font-weight: 600;
+    font-weight: 700;
     margin-bottom: 0.5rem;
   }
   
