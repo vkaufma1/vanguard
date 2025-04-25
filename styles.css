@@ -451,6 +451,12 @@ button{
     padding: 1rem;
     position: relative;
 }
+
+.bar-chart-wrapper{
+    display: flex;
+    justify-content: center;
+    overflow-x: hidden;
+}
 /* ADD ON TRANSITION ON HEIGHT */
 .bar {
     width: 50px;
