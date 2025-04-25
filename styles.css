@@ -80,8 +80,20 @@ table {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 1rem 2rem;
-    background-color: var(--charcoal);
+    padding: 1rem 0;
+    background-color: var(--black);
+    position: relative;
+  }
+
+  .navbar::after {
+    content: " ";
+    display: block;
+    height: 4px;
+    width: 100%;
+    background: var(--blue);
+    position: absolute;
+    bottom: 0;
+    left: 0;
   }
   
   .logo {
@@ -118,18 +130,28 @@ table {
     text-align: center;
     padding: 1rem;
     overflow: hidden;
+    height: 100vh;
+}
+
+.hero-content{
+    max-width: 600px;
+    padding: 0 1rem;
 }
 
 .hero h2{
     color: var(--white);
     font-size: 2rem;
+    font-weight: 700;
     margin-bottom: 1rem;
 }
 
 .hero p{
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
     color: var(--white);
     max-width: 500px;
-    margin: 0 auto 1.5rem;
+    margin-bottom: 1.5rem;
 }
 
 .btn{
