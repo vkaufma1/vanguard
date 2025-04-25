@@ -40,6 +40,10 @@ body {
     overflow-x: hidden;
     font-family: 'Inter', sans-serif;
 }
+
+*{
+    box-sizing: border-box;
+}
 ol, ul {
     list-style: none;
 }
@@ -351,6 +355,7 @@ button{
    overflow-x: auto;
    margin: 0 auto 2rem;
    max-width: 90%;
+   table-layout: fixed;
   }
 
   .results-table table{
@@ -367,6 +372,7 @@ button{
   .results-table td {
     padding: 0.75rem 1rem;
     text-align: center;
+    word-wrap: break-word;
   }
 
   .results-table th{
@@ -502,9 +508,6 @@ button{
       width: 50%;
     }
   
-    .bar-chart {
-      width: 50%;
-    }
   }
   
 
