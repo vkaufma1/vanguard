@@ -521,6 +521,7 @@ button{
     margin: 0 auto 2rem;
     line-height: 1.5;
     color: var(--white);
+    font-weight: 400;
 }
 
 
