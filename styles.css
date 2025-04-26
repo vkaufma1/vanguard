@@ -539,6 +539,19 @@ button{
     color: var(--white);
 }
 
+footer{
+    background: var(--black);
+    color: var(--white);
+    text-align: center;
+    padding: 2rem 1rem;
+    font-size: 0.875rem;
+}
+
+footer a{
+    color: var(--white);
+    text-decoration: underline;
+}
+
 
 /* MEDIA QUERIES (MEDIUM) */ 
 @media (min-width: 600px) {
