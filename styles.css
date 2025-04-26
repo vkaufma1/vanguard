@@ -373,6 +373,8 @@ button{
     padding: 0.75rem 1rem;
     text-align: center;
     word-wrap: break-word;
+    white-space: nowrap;
+    overflow: hidden;
   }
 
   .results-table th{
@@ -455,8 +457,6 @@ button{
 .bar-chart-wrapper{
     padding-bottom: 1rem;
     overflow-x: auto;
-    margin: 0 auto;
-    max-width: 100%;
 }
 /* ADD ON TRANSITION ON HEIGHT */
 .bar {
