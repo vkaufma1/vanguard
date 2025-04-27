@@ -631,4 +631,25 @@ footer a{
     .results-container{
         gap: 4rem;
     }
+
+    form{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 1.5rem;
+        max-width: 1000px;
+        margin: 2rem auto 0;
+    }
+
+    form label{
+        grid-column: span 2;
+    }
+
+    form textarea{
+        grid-column: span 2;
+    }
+
+    button[type="submit"]{
+        grid-column: span 2;
+        width: 100%;
+    }
 }
