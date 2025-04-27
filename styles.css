@@ -575,13 +575,13 @@ footer a{
   
   }
 
-  .card{
+  .cards{
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     gap: 20px;
   }
 
-  nav a{
+  nav-links a{
     color: var(--blue);
   }
   
