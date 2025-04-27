@@ -644,6 +644,10 @@ footer a{
         grid-column: span 2;
     }
 
+    input, textarea{
+        width: 100%;
+    }
+
     form textarea{
         grid-column: span 2;
     }
